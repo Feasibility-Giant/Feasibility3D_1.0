@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Pipe Fitting 1",
+        "category": "Pipe Fittings",
+        "tags": ["pipe", "fitting", "90-degree"],
+        "path": "/home/jarvis/Documents/Feasibility3D/assets/fittings/pipe_fitting_1.f3d"
+    },
+    {
+        "name": "Valve 2",
+        "category": "Valves",
+        "tags": ["valve", "pressure"],
+        "path": "/home/jarvis/Documents/Feasibility3D/assets/valves/valve_2.f3d"
+    }
+]

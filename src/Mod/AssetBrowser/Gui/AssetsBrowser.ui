@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>AssetsBrowser</class>
+  <widget class="QWidget" name="AssetsBrowser">
+    <property name="windowTitle">
+      <string>Feasibility3D Assets Browser</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+        <!-- Search Bar -->
+        <widget class="QLineEdit" name="searchBar">
+          <property name="placeholderText">
+            <string>Search for assets...</string>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <!-- Asset List View -->
+        <widget class="QListView" name="assetsListView">
+          <property name="selectionMode">
+            <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <!-- Filter Options -->
+        <widget class="QComboBox" name="filterComboBox">
+          <item>
+            <property name="text">
+              <string>All</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>Pipe Fittings</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>Valves</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>Tools</string>
+            </property>
+          </item>
+        </widget>
+      </item>
+    </layout>
+  </widget>
+  <resources/>
+  <connections/>
+</ui>
