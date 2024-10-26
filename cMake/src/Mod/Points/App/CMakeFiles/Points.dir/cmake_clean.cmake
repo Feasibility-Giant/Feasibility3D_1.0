@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../../../Mod/Points/Init.py"
+  "../../../../Mod/Points/Points.pdb"
+  "../../../../Mod/Points/Points.so"
+  "CMakeFiles/Points_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/Points_autogen.dir/ParseCache.txt"
+  "Points_autogen"
+  "CMakeFiles/Points.dir/AppPoints.cpp.o"
+  "CMakeFiles/Points.dir/AppPoints.cpp.o.d"
+  "CMakeFiles/Points.dir/AppPointsPy.cpp.o"
+  "CMakeFiles/Points.dir/AppPointsPy.cpp.o.d"
+  "CMakeFiles/Points.dir/Points.cpp.o"
+  "CMakeFiles/Points.dir/Points.cpp.o.d"
+  "CMakeFiles/Points.dir/PointsAlgos.cpp.o"
+  "CMakeFiles/Points.dir/PointsAlgos.cpp.o.d"
+  "CMakeFiles/Points.dir/PointsFeature.cpp.o"
+  "CMakeFiles/Points.dir/PointsFeature.cpp.o.d"
+  "CMakeFiles/Points.dir/PointsGrid.cpp.o"
+  "CMakeFiles/Points.dir/PointsGrid.cpp.o.d"
+  "CMakeFiles/Points.dir/PointsPyImp.cpp.o"
+  "CMakeFiles/Points.dir/PointsPyImp.cpp.o.d"
+  "CMakeFiles/Points.dir/Points_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/Points.dir/Points_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Points.dir/PreCompiled.cpp.o"
+  "CMakeFiles/Points.dir/PreCompiled.cpp.o.d"
+  "CMakeFiles/Points.dir/Properties.cpp.o"
+  "CMakeFiles/Points.dir/Properties.cpp.o.d"
+  "CMakeFiles/Points.dir/PropertyPointKernel.cpp.o"
+  "CMakeFiles/Points.dir/PropertyPointKernel.cpp.o.d"
+  "CMakeFiles/Points.dir/Structured.cpp.o"
+  "CMakeFiles/Points.dir/Structured.cpp.o.d"
+  "PointsPy.cpp"
+  "PointsPy.h"
+  "Points_autogen/mocs_compilation.cpp"
+  "Points_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Points.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

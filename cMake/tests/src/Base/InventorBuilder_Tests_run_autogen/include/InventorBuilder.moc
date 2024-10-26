@@ -1,0 +1,391 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'InventorBuilder.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.13)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'InventorBuilder.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.13. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_testInventorBuilder_t {
+    QByteArrayData data[64];
+    char stringdata0[1090];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_testInventorBuilder_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_testInventorBuilder_t qt_meta_stringdata_testInventorBuilder = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "testInventorBuilder"
+QT_MOC_LITERAL(1, 20, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 17), // "initTestCase_data"
+QT_MOC_LITERAL(4, 52, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(5, 68, 4), // "init"
+QT_MOC_LITERAL(6, 73, 7), // "cleanup"
+QT_MOC_LITERAL(7, 81, 12), // "test_Invalid"
+QT_MOC_LITERAL(8, 94, 11), // "test_Output"
+QT_MOC_LITERAL(9, 106, 25), // "test_MaterialBinding_data"
+QT_MOC_LITERAL(10, 132, 20), // "test_MaterialBinding"
+QT_MOC_LITERAL(11, 153, 15), // "test_Label_data"
+QT_MOC_LITERAL(12, 169, 10), // "test_Label"
+QT_MOC_LITERAL(13, 180, 14), // "test_Info_data"
+QT_MOC_LITERAL(14, 195, 9), // "test_Info"
+QT_MOC_LITERAL(15, 205, 15), // "test_Text2_data"
+QT_MOC_LITERAL(16, 221, 10), // "test_Text2"
+QT_MOC_LITERAL(17, 232, 19), // "test_BaseColor_data"
+QT_MOC_LITERAL(18, 252, 14), // "test_BaseColor"
+QT_MOC_LITERAL(19, 267, 18), // "test_Material_data"
+QT_MOC_LITERAL(20, 286, 13), // "test_Material"
+QT_MOC_LITERAL(21, 300, 19), // "test_Materials_data"
+QT_MOC_LITERAL(22, 320, 14), // "test_Materials"
+QT_MOC_LITERAL(23, 335, 19), // "test_DrawStyle_data"
+QT_MOC_LITERAL(24, 355, 14), // "test_DrawStyle"
+QT_MOC_LITERAL(25, 370, 20), // "test_ShapeHints_data"
+QT_MOC_LITERAL(26, 391, 15), // "test_ShapeHints"
+QT_MOC_LITERAL(27, 407, 23), // "test_PolygonOffset_data"
+QT_MOC_LITERAL(28, 431, 18), // "test_PolygonOffset"
+QT_MOC_LITERAL(29, 450, 18), // "test_PointSet_data"
+QT_MOC_LITERAL(30, 469, 13), // "test_PointSet"
+QT_MOC_LITERAL(31, 483, 17), // "test_LineSet_data"
+QT_MOC_LITERAL(32, 501, 12), // "test_LineSet"
+QT_MOC_LITERAL(33, 514, 17), // "test_FaceSet_data"
+QT_MOC_LITERAL(34, 532, 12), // "test_FaceSet"
+QT_MOC_LITERAL(35, 545, 24), // "test_IndexedLineSet_data"
+QT_MOC_LITERAL(36, 570, 19), // "test_IndexedLineSet"
+QT_MOC_LITERAL(37, 590, 24), // "test_IndexedFaceSet_data"
+QT_MOC_LITERAL(38, 615, 19), // "test_IndexedFaceSet"
+QT_MOC_LITERAL(39, 635, 14), // "test_Transform"
+QT_MOC_LITERAL(40, 650, 16), // "test_Normal_data"
+QT_MOC_LITERAL(41, 667, 11), // "test_Normal"
+QT_MOC_LITERAL(42, 679, 18), // "test_LineItem_data"
+QT_MOC_LITERAL(43, 698, 13), // "test_LineItem"
+QT_MOC_LITERAL(44, 712, 23), // "test_MultiLineItem_data"
+QT_MOC_LITERAL(45, 736, 18), // "test_MultiLineItem"
+QT_MOC_LITERAL(46, 755, 19), // "test_ArrowItem_data"
+QT_MOC_LITERAL(47, 775, 14), // "test_ArrowItem"
+QT_MOC_LITERAL(48, 790, 25), // "test_BoundingBoxItem_data"
+QT_MOC_LITERAL(49, 816, 20), // "test_BoundingBoxItem"
+QT_MOC_LITERAL(50, 837, 25), // "test_Coordinate3Item_data"
+QT_MOC_LITERAL(51, 863, 20), // "test_Coordinate3Item"
+QT_MOC_LITERAL(52, 884, 19), // "test_PointItem_data"
+QT_MOC_LITERAL(53, 904, 14), // "test_PointItem"
+QT_MOC_LITERAL(54, 919, 23), // "test_NormalBinding_data"
+QT_MOC_LITERAL(55, 943, 18), // "test_NormalBinding"
+QT_MOC_LITERAL(56, 962, 18), // "test_Cylinder_data"
+QT_MOC_LITERAL(57, 981, 13), // "test_Cylinder"
+QT_MOC_LITERAL(58, 995, 14), // "test_Cone_data"
+QT_MOC_LITERAL(59, 1010, 9), // "test_Cone"
+QT_MOC_LITERAL(60, 1020, 16), // "test_Sphere_data"
+QT_MOC_LITERAL(61, 1037, 11), // "test_Sphere"
+QT_MOC_LITERAL(62, 1049, 22), // "test_NurbsSurface_data"
+QT_MOC_LITERAL(63, 1072, 17) // "test_NurbsSurface"
+
+    },
+    "testInventorBuilder\0initTestCase\0\0"
+    "initTestCase_data\0cleanupTestCase\0"
+    "init\0cleanup\0test_Invalid\0test_Output\0"
+    "test_MaterialBinding_data\0"
+    "test_MaterialBinding\0test_Label_data\0"
+    "test_Label\0test_Info_data\0test_Info\0"
+    "test_Text2_data\0test_Text2\0"
+    "test_BaseColor_data\0test_BaseColor\0"
+    "test_Material_data\0test_Material\0"
+    "test_Materials_data\0test_Materials\0"
+    "test_DrawStyle_data\0test_DrawStyle\0"
+    "test_ShapeHints_data\0test_ShapeHints\0"
+    "test_PolygonOffset_data\0test_PolygonOffset\0"
+    "test_PointSet_data\0test_PointSet\0"
+    "test_LineSet_data\0test_LineSet\0"
+    "test_FaceSet_data\0test_FaceSet\0"
+    "test_IndexedLineSet_data\0test_IndexedLineSet\0"
+    "test_IndexedFaceSet_data\0test_IndexedFaceSet\0"
+    "test_Transform\0test_Normal_data\0"
+    "test_Normal\0test_LineItem_data\0"
+    "test_LineItem\0test_MultiLineItem_data\0"
+    "test_MultiLineItem\0test_ArrowItem_data\0"
+    "test_ArrowItem\0test_BoundingBoxItem_data\0"
+    "test_BoundingBoxItem\0test_Coordinate3Item_data\0"
+    "test_Coordinate3Item\0test_PointItem_data\0"
+    "test_PointItem\0test_NormalBinding_data\0"
+    "test_NormalBinding\0test_Cylinder_data\0"
+    "test_Cylinder\0test_Cone_data\0test_Cone\0"
+    "test_Sphere_data\0test_Sphere\0"
+    "test_NurbsSurface_data\0test_NurbsSurface"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_testInventorBuilder[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      62,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  324,    2, 0x08 /* Private */,
+       3,    0,  325,    2, 0x08 /* Private */,
+       4,    0,  326,    2, 0x08 /* Private */,
+       5,    0,  327,    2, 0x08 /* Private */,
+       6,    0,  328,    2, 0x08 /* Private */,
+       7,    0,  329,    2, 0x08 /* Private */,
+       8,    0,  330,    2, 0x08 /* Private */,
+       9,    0,  331,    2, 0x08 /* Private */,
+      10,    0,  332,    2, 0x08 /* Private */,
+      11,    0,  333,    2, 0x08 /* Private */,
+      12,    0,  334,    2, 0x08 /* Private */,
+      13,    0,  335,    2, 0x08 /* Private */,
+      14,    0,  336,    2, 0x08 /* Private */,
+      15,    0,  337,    2, 0x08 /* Private */,
+      16,    0,  338,    2, 0x08 /* Private */,
+      17,    0,  339,    2, 0x08 /* Private */,
+      18,    0,  340,    2, 0x08 /* Private */,
+      19,    0,  341,    2, 0x08 /* Private */,
+      20,    0,  342,    2, 0x08 /* Private */,
+      21,    0,  343,    2, 0x08 /* Private */,
+      22,    0,  344,    2, 0x08 /* Private */,
+      23,    0,  345,    2, 0x08 /* Private */,
+      24,    0,  346,    2, 0x08 /* Private */,
+      25,    0,  347,    2, 0x08 /* Private */,
+      26,    0,  348,    2, 0x08 /* Private */,
+      27,    0,  349,    2, 0x08 /* Private */,
+      28,    0,  350,    2, 0x08 /* Private */,
+      29,    0,  351,    2, 0x08 /* Private */,
+      30,    0,  352,    2, 0x08 /* Private */,
+      31,    0,  353,    2, 0x08 /* Private */,
+      32,    0,  354,    2, 0x08 /* Private */,
+      33,    0,  355,    2, 0x08 /* Private */,
+      34,    0,  356,    2, 0x08 /* Private */,
+      35,    0,  357,    2, 0x08 /* Private */,
+      36,    0,  358,    2, 0x08 /* Private */,
+      37,    0,  359,    2, 0x08 /* Private */,
+      38,    0,  360,    2, 0x08 /* Private */,
+      39,    0,  361,    2, 0x08 /* Private */,
+      40,    0,  362,    2, 0x08 /* Private */,
+      41,    0,  363,    2, 0x08 /* Private */,
+      42,    0,  364,    2, 0x08 /* Private */,
+      43,    0,  365,    2, 0x08 /* Private */,
+      44,    0,  366,    2, 0x08 /* Private */,
+      45,    0,  367,    2, 0x08 /* Private */,
+      46,    0,  368,    2, 0x08 /* Private */,
+      47,    0,  369,    2, 0x08 /* Private */,
+      48,    0,  370,    2, 0x08 /* Private */,
+      49,    0,  371,    2, 0x08 /* Private */,
+      50,    0,  372,    2, 0x08 /* Private */,
+      51,    0,  373,    2, 0x08 /* Private */,
+      52,    0,  374,    2, 0x08 /* Private */,
+      53,    0,  375,    2, 0x08 /* Private */,
+      54,    0,  376,    2, 0x08 /* Private */,
+      55,    0,  377,    2, 0x08 /* Private */,
+      56,    0,  378,    2, 0x08 /* Private */,
+      57,    0,  379,    2, 0x08 /* Private */,
+      58,    0,  380,    2, 0x08 /* Private */,
+      59,    0,  381,    2, 0x08 /* Private */,
+      60,    0,  382,    2, 0x08 /* Private */,
+      61,    0,  383,    2, 0x08 /* Private */,
+      62,    0,  384,    2, 0x08 /* Private */,
+      63,    0,  385,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void testInventorBuilder::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<testInventorBuilder *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->initTestCase_data(); break;
+        case 2: _t->cleanupTestCase(); break;
+        case 3: _t->init(); break;
+        case 4: _t->cleanup(); break;
+        case 5: _t->test_Invalid(); break;
+        case 6: _t->test_Output(); break;
+        case 7: _t->test_MaterialBinding_data(); break;
+        case 8: _t->test_MaterialBinding(); break;
+        case 9: _t->test_Label_data(); break;
+        case 10: _t->test_Label(); break;
+        case 11: _t->test_Info_data(); break;
+        case 12: _t->test_Info(); break;
+        case 13: _t->test_Text2_data(); break;
+        case 14: _t->test_Text2(); break;
+        case 15: _t->test_BaseColor_data(); break;
+        case 16: _t->test_BaseColor(); break;
+        case 17: _t->test_Material_data(); break;
+        case 18: _t->test_Material(); break;
+        case 19: _t->test_Materials_data(); break;
+        case 20: _t->test_Materials(); break;
+        case 21: _t->test_DrawStyle_data(); break;
+        case 22: _t->test_DrawStyle(); break;
+        case 23: _t->test_ShapeHints_data(); break;
+        case 24: _t->test_ShapeHints(); break;
+        case 25: _t->test_PolygonOffset_data(); break;
+        case 26: _t->test_PolygonOffset(); break;
+        case 27: _t->test_PointSet_data(); break;
+        case 28: _t->test_PointSet(); break;
+        case 29: _t->test_LineSet_data(); break;
+        case 30: _t->test_LineSet(); break;
+        case 31: _t->test_FaceSet_data(); break;
+        case 32: _t->test_FaceSet(); break;
+        case 33: _t->test_IndexedLineSet_data(); break;
+        case 34: _t->test_IndexedLineSet(); break;
+        case 35: _t->test_IndexedFaceSet_data(); break;
+        case 36: _t->test_IndexedFaceSet(); break;
+        case 37: _t->test_Transform(); break;
+        case 38: _t->test_Normal_data(); break;
+        case 39: _t->test_Normal(); break;
+        case 40: _t->test_LineItem_data(); break;
+        case 41: _t->test_LineItem(); break;
+        case 42: _t->test_MultiLineItem_data(); break;
+        case 43: _t->test_MultiLineItem(); break;
+        case 44: _t->test_ArrowItem_data(); break;
+        case 45: _t->test_ArrowItem(); break;
+        case 46: _t->test_BoundingBoxItem_data(); break;
+        case 47: _t->test_BoundingBoxItem(); break;
+        case 48: _t->test_Coordinate3Item_data(); break;
+        case 49: _t->test_Coordinate3Item(); break;
+        case 50: _t->test_PointItem_data(); break;
+        case 51: _t->test_PointItem(); break;
+        case 52: _t->test_NormalBinding_data(); break;
+        case 53: _t->test_NormalBinding(); break;
+        case 54: _t->test_Cylinder_data(); break;
+        case 55: _t->test_Cylinder(); break;
+        case 56: _t->test_Cone_data(); break;
+        case 57: _t->test_Cone(); break;
+        case 58: _t->test_Sphere_data(); break;
+        case 59: _t->test_Sphere(); break;
+        case 60: _t->test_NurbsSurface_data(); break;
+        case 61: _t->test_NurbsSurface(); break;
+        default: ;
+        }
+    }
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject testInventorBuilder::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_testInventorBuilder.data,
+    qt_meta_data_testInventorBuilder,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *testInventorBuilder::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *testInventorBuilder::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_testInventorBuilder.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int testInventorBuilder::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 62)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 62;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 62)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 62;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

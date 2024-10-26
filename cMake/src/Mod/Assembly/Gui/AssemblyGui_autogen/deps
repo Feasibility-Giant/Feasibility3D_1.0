@@ -1,0 +1,20 @@
+AssemblyGui_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/cMake/src/Mod/Assembly/Gui/Resources/Assembly_translation.qrc \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/AppAssemblyGui.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/AppAssemblyGuiPy.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/PreCompiled.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/PreCompiled.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/Resources/Assembly.qrc \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderAssembly.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderAssembly.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderAssemblyPyImp.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderBom.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderBom.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderBomGroup.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderBomGroup.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderJointGroup.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderJointGroup.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderViewGroup.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Assembly/Gui/ViewProviderViewGroup.h \
+	/usr/bin/cmake

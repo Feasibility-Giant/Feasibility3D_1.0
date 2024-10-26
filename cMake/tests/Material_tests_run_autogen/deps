@@ -1,0 +1,11 @@
+Material_tests_run_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/tests/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestMaterialCards.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestMaterialFilter.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestMaterialProperties.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestMaterialValue.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestMaterials.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestModel.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Material/App/TestModelProperties.cpp \
+	/usr/share/cmake-3.28/Modules/GoogleTest.cmake \
+	/usr/bin/cmake

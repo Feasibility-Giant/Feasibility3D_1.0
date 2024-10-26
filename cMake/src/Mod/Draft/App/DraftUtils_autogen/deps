@@ -1,0 +1,7 @@
+DraftUtils_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/src/Mod/Draft/App/AppDraftUtils.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Draft/App/AppDraftUtilsPy.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Draft/App/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/src/Mod/Draft/App/PreCompiled.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Draft/App/PreCompiled.h \
+	/usr/bin/cmake

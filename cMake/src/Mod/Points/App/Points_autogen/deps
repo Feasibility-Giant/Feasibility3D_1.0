@@ -1,0 +1,23 @@
+Points_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/AppPoints.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/AppPointsPy.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Points.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Points.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsAlgos.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsAlgos.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsFeature.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsFeature.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsGrid.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsGrid.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PointsPyImp.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PreCompiled.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PreCompiled.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Properties.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Properties.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PropertyPointKernel.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/PropertyPointKernel.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Structured.cpp \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Structured.h \
+	/home/jarvis/Documents/freecad-source/src/Mod/Points/App/Tools.h \
+	/usr/bin/cmake

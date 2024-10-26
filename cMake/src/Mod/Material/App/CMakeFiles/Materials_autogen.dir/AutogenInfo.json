@@ -1,0 +1,330 @@
+{
+	"BUILD_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/Materials_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source/src/Mod/Material/App",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source",
+	"DEP_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/Materials_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Materials_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Exceptions.h",
+			"MU",
+			"EWIEGA46WW/moc_Exceptions.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/FolderTree.h",
+			"MU",
+			"EWIEGA46WW/moc_FolderTree.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialConfigLoader.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialConfigLoader.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialFilter.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialFilter.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialLibrary.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialLibrary.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialLoader.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialLoader.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialManager.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialManager.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialValue.h",
+			"MU",
+			"EWIEGA46WW/moc_MaterialValue.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Materials.h",
+			"MU",
+			"EWIEGA46WW/moc_Materials.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Model.h",
+			"MU",
+			"EWIEGA46WW/moc_Model.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelLibrary.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelLibrary.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelLoader.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelLoader.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelManager.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelManager.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelUuids.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelUuids.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/PropertyMaterial.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyMaterial.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/trim.h",
+			"MU",
+			"EWIEGA46WW/moc_trim.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/Materials_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/Materials_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"FMT_SHARED",
+		"HAVE_CONFIG_H",
+		"HAVE_LIMITS_H",
+		"Materials_EXPORTS",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_XML_LIB",
+		"YAML_CPP_STATIC_DEFINE",
+		"_OCC64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/cMake",
+		"/home/jarvis/Documents/freecad-source/cMake/src",
+		"/home/jarvis/Documents/freecad-source/src",
+		"/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App",
+		"/home/jarvis/Documents/freecad-source/src/Mod/Material/App",
+		"/usr/include/python3.12",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtConcurrent",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/Materials_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/CMakeFiles/Materials_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Material/App/CMakeFiles/Materials_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/AppMaterial.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Array2DPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Array3DPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialConfigLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialFilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialFilterPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialLibrary.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialManagerPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/MaterialValue.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Materials.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/Model.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelLibrary.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelManagerPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelPropertyPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/ModelUuids.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/PropertyMaterial.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Material/App/UUIDsPyImp.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

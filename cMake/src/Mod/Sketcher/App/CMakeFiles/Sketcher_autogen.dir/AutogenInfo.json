@@ -1,0 +1,403 @@
+{
+	"BUILD_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/Sketcher_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source",
+	"DEP_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/Sketcher_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Sketcher_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Analyse.h",
+			"MU",
+			"EWIEGA46WW/moc_Analyse.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Constraint.h",
+			"MU",
+			"EWIEGA46WW/moc_Constraint.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_ExternalGeometryExtension.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryFacade.h",
+			"MU",
+			"EWIEGA46WW/moc_ExternalGeometryFacade.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeoEnum.h",
+			"MU",
+			"EWIEGA46WW/moc_GeoEnum.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeoList.h",
+			"MU",
+			"EWIEGA46WW/moc_GeoList.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeometryFacade.h",
+			"MU",
+			"EWIEGA46WW/moc_GeometryFacade.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Measure.h",
+			"MU",
+			"EWIEGA46WW/moc_Measure.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PropertyConstraintList.h",
+			"MU",
+			"EWIEGA46WW/moc_PropertyConstraintList.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PythonConverter.h",
+			"MU",
+			"EWIEGA46WW/moc_PythonConverter.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Sketch.h",
+			"MU",
+			"EWIEGA46WW/moc_Sketch.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchAnalysis.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchAnalysis.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchGeometryExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchGeometryExtension.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObject.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchObject.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObjectSF.h",
+			"MU",
+			"EWIEGA46WW/moc_SketchObjectSF.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SolverGeometryExtension.h",
+			"MU",
+			"EWIEGA46WW/moc_SolverGeometryExtension.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/Constraints.h",
+			"MU",
+			"FLGRA5KVB6/moc_Constraints.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/GCS.h",
+			"MU",
+			"FLGRA5KVB6/moc_GCS.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/Geo.h",
+			"MU",
+			"FLGRA5KVB6/moc_Geo.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/SubSystem.h",
+			"MU",
+			"FLGRA5KVB6/moc_SubSystem.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/Util.h",
+			"MU",
+			"FLGRA5KVB6/moc_Util.cpp",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/qp_eq.h",
+			"MU",
+			"FLGRA5KVB6/moc_qp_eq.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/Sketcher_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/Sketcher_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"FMT_SHARED",
+		"HAVE_CONFIG_H",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_XML_LIB",
+		"Sketcher_EXPORTS",
+		"_OCC64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/cMake",
+		"/home/jarvis/Documents/freecad-source/cMake/src",
+		"/home/jarvis/Documents/freecad-source/src",
+		"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App",
+		"/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App",
+		"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher",
+		"/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher",
+		"/usr/include/opencascade",
+		"/usr/include/python3.12",
+		"/usr/include/eigen3",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtConcurrent",
+		"/usr/include",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/Sketcher_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/CMakeFiles/Sketcher_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/Mod/Sketcher/App/CMakeFiles/Sketcher_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/AppSketcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/AppSketcherPy.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Constraint.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ConstraintPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryFacade.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/ExternalGeometryFacadePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeoEnum.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeoList.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeometryFacade.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/GeometryFacadePyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Measure.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PropertyConstraintList.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/PythonConverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/Sketch.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchAnalysis.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchGeometryExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchGeometryExtensionPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObjectPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObjectSF.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchObjectSFPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SketchPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/SolverGeometryExtension.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/Constraints.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/GCS.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/Geo.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/SubSystem.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/Mod/Sketcher/App/planegcs/qp_eq.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,6 @@
+FreeCADMainCmd_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/src/Main/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/src/Main/MainCmd.cpp \
+	/home/jarvis/Documents/freecad-source/src/Main/freecad.rc.cmake \
+	/home/jarvis/Documents/freecad-source/src/Main/freecadCmd.rc.cmake \
+	/usr/bin/cmake

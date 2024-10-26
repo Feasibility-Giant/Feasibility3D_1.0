@@ -1,0 +1,7 @@
+Sketcher_tests_run_autogen/timestamp: \
+	/home/jarvis/Documents/freecad-source/tests/CMakeLists.txt \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Sketcher/App/SketchObject.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Sketcher/App/planegcs/Constraints.cpp \
+	/home/jarvis/Documents/freecad-source/tests/src/Mod/Sketcher/App/planegcs/GCS.cpp \
+	/usr/share/cmake-3.28/Modules/GoogleTest.cmake \
+	/usr/bin/cmake

@@ -1,0 +1,106 @@
+{
+	"BUILD_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh/DriverDAT_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source",
+	"DEP_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh/DriverDAT_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "DriverDAT_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMESHDS_Document.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMESHDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMESHDS_Document.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMESHDS_Mesh.h",
+			"mU",
+			"",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh/DriverDAT_autogen/include",
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DAT_Test.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMESHDS_Document.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMESHDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMESHDS_Document.cpp",
+			"mU",
+			null
+		],
+		[
+			"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMESHDS_Mesh.cpp",
+			"mU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

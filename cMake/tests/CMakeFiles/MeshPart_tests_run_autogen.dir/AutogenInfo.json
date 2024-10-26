@@ -1,0 +1,138 @@
+{
+	"BUILD_DIR" : "/home/jarvis/Documents/freecad-source/cMake/tests/MeshPart_tests_run_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jarvis/Documents/freecad-source/cMake/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source/tests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/tests/CMakeLists.txt",
+		"/usr/share/cmake-3.28/Modules/GoogleTest.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jarvis/Documents/freecad-source",
+	"DEP_FILE" : "/home/jarvis/Documents/freecad-source/cMake/tests/MeshPart_tests_run_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "MeshPart_tests_run_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jarvis/Documents/freecad-source/cMake/tests/MeshPart_tests_run_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jarvis/Documents/freecad-source/cMake/tests/MeshPart_tests_run_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"FMT_SHARED",
+		"H5_BUILT_AS_DYNAMIC_LIB",
+		"HAVE_CONFIG_H",
+		"MPICH_SKIP_MPICXX",
+		"MPI_NO_CPPBIND",
+		"OMPI_SKIP_MPICXX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_XML_LIB",
+		"_MPICC_H",
+		"_OCC64",
+		"kiss_fft_scalar=double"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jarvis/Documents/freecad-source/cMake",
+		"/home/jarvis/Documents/freecad-source/cMake/src",
+		"/home/jarvis/Documents/freecad-source/src",
+		"/home/jarvis/Documents/freecad-source/tests/lib/googlemock/include",
+		"/home/jarvis/Documents/freecad-source/tests",
+		"/usr/include/eigen3",
+		"/usr/include/opencascade",
+		"/usr/include/python3.12",
+		"/home/jarvis/Documents/freecad-source/src/3rdParty/salomesmesh/inc",
+		"/home/jarvis/Documents/freecad-source/tests/lib/googletest/include",
+		"/home/jarvis/Documents/freecad-source/tests/lib/googletest",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtConcurrent",
+		"/usr/include/vtk-9.1",
+		"/usr/include/jsoncpp",
+		"/usr/lib/x86_64-linux-gnu/openmpi/include",
+		"/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi",
+		"/usr/include/hdf5/serial",
+		"/usr/include/freetype2",
+		"/usr/include",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/tests/MeshPart_tests_run_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Assembly_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Material_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Mesh_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Tests_run_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/home/jarvis/Documents/freecad-source/cMake/tests/CMakeFiles/MeshPart_tests_run_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/jarvis/Documents/freecad-source/cMake/tests/CMakeFiles/MeshPart_tests_run_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jarvis/Documents/freecad-source/tests/src/Mod/MeshPart/App/MeshPart.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Assembly_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Material_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Mesh_tests_run_autogen/mocs_compilation.cpp",
+		"/home/jarvis/Documents/freecad-source/cMake/tests/Tests_run_autogen/mocs_compilation.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

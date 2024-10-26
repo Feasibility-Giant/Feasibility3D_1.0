@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../../../Mod/Surface/SurfaceGui.pdb"
+  "../../../../Mod/Surface/SurfaceGui.so"
+  "../../../../share/Mod/Surface/Resources/icons/Surface_Workbench.svg"
+  "CMakeFiles/SurfaceGui_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/SurfaceGui_autogen.dir/ParseCache.txt"
+  "SurfaceGui_autogen"
+  "CMakeFiles/SurfaceGui.dir/AppSurfaceGui.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/AppSurfaceGui.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/Blending/ViewProviderBlendCurve.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/Blending/ViewProviderBlendCurve.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/Command.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/Command.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/PreCompiled.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/PreCompiled.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/SurfaceGui_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/SurfaceGui_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/TaskFilling.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/TaskFilling.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/TaskFillingEdge.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/TaskFillingEdge.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/TaskFillingVertex.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/TaskFillingVertex.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/TaskGeomFillSurface.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/TaskGeomFillSurface.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/TaskSections.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/TaskSections.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/ViewProviderExtend.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/ViewProviderExtend.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/Workbench.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/Workbench.cpp.o.d"
+  "CMakeFiles/SurfaceGui.dir/qrc_Surface.cpp.o"
+  "CMakeFiles/SurfaceGui.dir/qrc_Surface.cpp.o.d"
+  "SurfaceGui_autogen/mocs_compilation.cpp"
+  "SurfaceGui_autogen/timestamp"
+  "qrc_Surface.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/SurfaceGui.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
