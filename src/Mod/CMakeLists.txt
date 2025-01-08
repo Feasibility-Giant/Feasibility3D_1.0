@@ -10,6 +10,10 @@ if(BUILD_ASSEMBLY)
   add_subdirectory(Assembly)
 endif(BUILD_ASSEMBLY)
 
+if(BUILD_ASSETSLIBRARY)
+  add_subdirectory(AssetsLibrary)
+endif(BUILD_ASSETSLIBRARY)
+
 if(BUILD_CLOUD)
     add_subdirectory(Cloud)
 endif(BUILD_CLOUD)
@@ -22,9 +26,18 @@ if(BUILD_DRAWING)
   add_subdirectory(Drawing)
 endif(BUILD_DRAWING)
 
+if(BUILD_FEASIBLEASSETS)
+  add_subdirectory(FeasibleAssets)
+endif(BUILD_FEASIBLEASSETS)
+
+
 if(BUILD_FEM)
     add_subdirectory(Fem)
 endif(BUILD_FEM)
+
+if(BUILD_FREECAD-OPENFOAM)
+    add_subdirectory(freecad-openfoam)
+endif(BUILD_FREECAD-OPENFOAM)
 
 if(BUILD_HELP)
   add_subdirectory(Help)
@@ -57,6 +70,10 @@ endif(BUILD_MESH)
 if(BUILD_MESH_PART)
   add_subdirectory(MeshPart)
 endif(BUILD_MESH_PART)
+
+if(BUILD_MODERNUI)
+    add_subdirectory(ModernUI)
+endif(BUILD_MODERNUI)
 
 if(BUILD_OPENSCAD)
   add_subdirectory(OpenSCAD)

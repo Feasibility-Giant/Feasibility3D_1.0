@@ -1,0 +1,15 @@
+# Package.xml
+"""<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Package name="OpenFOAM">
+    <Version number="0.1.0"/>
+    <Classes>
+        <Class name="OpenFOAMWorkbench" generate="drop" header="freecad_openfoam/workbench.py"/>
+    </Classes>
+    <Description>Advanced OpenFOAM integration for Feasibility3D</Description>
+    <Author>Feasibility3D</Author>
+    <License>LGPL-2.1</License>
+    <Dependencies>
+        <Dependency type="python">numpy</Dependency>
+        <Dependency type="python">pyyaml</Dependency>
+    </Dependencies>
+</Package>

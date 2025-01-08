@@ -1,0 +1,154 @@
+freecad-openfoam/
+├── Package.xml
+├── Init.py
+├── InitGui.py
+├── freecad_openfoam/
+│   ├── __init__.py
+│   ├── workbench.py
+│   ├── icon.svg
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── openfoam_interface.py
+│   │   ├── mesh_generator.py
+│   │   ├── solver_manager.py
+│   │   └── post_processor.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_panel.py
+│   │   ├── mesh_panel.py
+│   │   ├── solver_panel.py
+│   │   ├── boundary_panel.py
+│   │   └── results_panel.py
+│   ├── solvers/
+│   │   ├── __init__.py
+│   │   ├── base_solver.py
+│   │   ├── multiphase.py
+│   │   ├── pigging.py
+│   │   └── spill.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── case_builder.py
+│       ├── foam_dict_writer.py
+│       └── validators.py
+├── tests/
+│   └── test_openfoam.py
+└── README.md
+
+
+freecad-openfoam/
+├── ... (existing files)
+├── freecad_openfoam/
+│   ├── ... (existing directories)
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── gl_renderer.py          # OpenGL rendering engine
+│   │   ├── scene_manager.py        # Manages visualization scenes
+│   │   ├── animation_controller.py  # Controls animation playback
+│   │   ├── data_mapper.py          # Maps solver data to visual elements
+│   │   └── visualization_types/
+│   │       ├── __init__.py
+│   │       ├── base_visualizer.py   # Base class for visualizers
+│   │       ├── particle_render.py   # Particle-based visualization
+│   │       ├── volume_render.py     # Volume rendering for fluids
+│   │       ├── surface_render.py    # Surface reconstruction
+│   │       └── streamline_render.py # Flow streamlines visualization
+│   ├── ui/
+│   │   ├── ... (existing files)
+│   │   ├── visualization_panel.py   # Main visualization panel UI
+│   │   └── viz_controls/
+│   │       ├── __init__.py
+│   │       ├── timeline_widget.py   # Animation timeline control
+│   │       ├── camera_controls.py   # View manipulation controls
+│   │       └── render_settings.py   # Visualization settings UI
+│   └── core/
+│       ├── ... (existing files)
+│       └── viz_interface.py         # Interface between solver and visualization
+
+# New file contents:
+
+## visualization/__init__.py
+- Initialization and registration of visualization components
+
+## visualization/gl_renderer.py
+- OpenGL context management
+- Shader programs
+- Rendering pipeline setup
+- Buffer management
+
+## visualization/scene_manager.py
+- Scene graph management
+- Camera and view controls
+- Object transformation handling
+- Scene state management
+
+## visualization/animation_controller.py
+- Timeline management
+- Animation state control
+- Frame interpolation
+- Playback controls
+
+## visualization/data_mapper.py
+- OpenFOAM data structure parsing
+- Conversion to visualization formats
+- Data interpolation
+- Mapping between solver and visual representations
+
+## visualization_types/base_visualizer.py
+- Abstract base class for visualizers
+- Common visualization methods
+- Interface definition
+- Resource management
+
+## visualization_types/particle_render.py
+- Particle system implementation
+- Multiphase flow visualization
+- Particle animation
+- GPU-based particle systems
+
+## visualization_types/volume_render.py
+- Volume rendering techniques
+- Density field visualization
+- Transfer function management
+- Ray casting implementation
+
+## visualization_types/surface_render.py
+- Surface reconstruction
+- Mesh generation for fluid surfaces
+- Normal calculation
+- Surface animation
+
+## visualization_types/streamline_render.py
+- Streamline calculation
+- Path integration
+- Line rendering
+- Flow visualization
+
+## ui/visualization_panel.py
+- Main visualization panel integration
+- UI layout and components
+- Event handling
+- Panel registration
+
+## ui/viz_controls/timeline_widget.py
+- Timeline UI implementation
+- Time control widgets
+- Frame navigation
+- Playback controls
+
+## ui/viz_controls/camera_controls.py
+- Camera manipulation UI
+- View angle controls
+- Zoom and pan interface
+- View preset management
+
+## ui/viz_controls/render_settings.py
+- Visualization settings UI
+- Render mode selection
+- Quality controls
+- Display options
+
+## core/viz_interface.py
+- Data exchange between solver and visualization
+- Event synchronization
+- State management
+- Resource handling

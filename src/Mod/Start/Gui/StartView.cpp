@@ -220,9 +220,9 @@ void StartView::configureNewFileButtons(QLayout* layout) const
     auto draft = createNewButton({tr("2D Draft"),
                                   tr("Create a 2D Draft with the Draft workbench"),
                                   QLatin1String(":/icons/DraftWorkbench.svg")});
-    auto arch = createNewButton({tr("BIM/Architecture"),
-                                 tr("Create an architectural project"),
-                                 QLatin1String(":/icons/BIMWorkbench.svg")});
+    // auto arch = createNewButton({tr("BIM/Architecture"),
+    //                              tr("Create an architectural project"),
+    //                              QLatin1String(":/icons/BIMWorkbench.svg")});
 
     auto hGrp = App::GetApplication().GetParameterGroupByPath(
         "User parameter:BaseApp/Preferences/Mod/Start");
@@ -233,14 +233,14 @@ void StartView::configureNewFileButtons(QLayout* layout) const
         partDesign->setStyleSheet(style);
         assembly->setStyleSheet(style);
         draft->setStyleSheet(style);
-        arch->setStyleSheet(style);
+        // arch->setStyleSheet(style);
     }
 
     // TODO: Ensure all of the required WBs are actually available
     layout->addWidget(partDesign);
     layout->addWidget(assembly);
     layout->addWidget(draft);
-    layout->addWidget(arch);
+    // layout->addWidget(arch);
     layout->addWidget(newEmptyFile);
     layout->addWidget(openFile);
 
@@ -249,7 +249,7 @@ void StartView::configureNewFileButtons(QLayout* layout) const
     connect(partDesign, &QPushButton::clicked, this, &StartView::newPartDesignFile);
     connect(assembly, &QPushButton::clicked, this, &StartView::newAssemblyFile);
     connect(draft, &QPushButton::clicked, this, &StartView::newDraftFile);
-    connect(arch, &QPushButton::clicked, this, &StartView::newArchFile);
+    // connect(arch, &QPushButton::clicked, this, &StartView::newArchFile);
 }
 
 QString StartView::fileCardStyle() const
@@ -380,17 +380,17 @@ void StartView::newDraftFile() const
     postStart(PostStartBehavior::doNotSwitchWorkbench);
 }
 
-void StartView::newArchFile() const
-{
-    Gui::Application::Instance->commandManager().runCommandByName("Std_New");
-    try {
-        Gui::Application::Instance->activateWorkbench("BIMWorkbench");
-    }
-    catch (...) {
-        Gui::Application::Instance->activateWorkbench("ArchWorkbench");
-    }
-    postStart(PostStartBehavior::doNotSwitchWorkbench);
-}
+// void StartView::newArchFile() const
+// {
+//     Gui::Application::Instance->commandManager().runCommandByName("Std_New");
+//     try {
+//         Gui::Application::Instance->activateWorkbench("BIMWorkbench");
+//     }
+//     catch (...) {
+//         Gui::Application::Instance->activateWorkbench("ArchWorkbench");
+//     }
+//     postStart(PostStartBehavior::doNotSwitchWorkbench);
+// }
 
 bool StartView::onHasMsg(const char* pMsg) const
 {

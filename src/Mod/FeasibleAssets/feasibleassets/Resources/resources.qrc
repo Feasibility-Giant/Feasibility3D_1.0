@@ -1,0 +1,35 @@
+<!-- Resources/resources.qrc -->
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <!-- Main module icon -->
+        <file>icons/FeasibleAssets.svg</file>
+        
+        <!-- Category icons -->
+        <file>icons/categories/piping.svg</file>
+        <file>icons/categories/vessels.svg</file>
+        <file>icons/categories/equipment.svg</file>
+        <file>icons/categories/structural.svg</file>
+        <file>icons/categories/instrumentation.svg</file>
+        
+        <!-- Action icons -->
+        <file>icons/actions/import.svg</file>
+        <file>icons/actions/export.svg</file>
+        <file>icons/actions/new_category.svg</file>
+        <file>icons/actions/delete.svg</file>
+        <file>icons/actions/edit.svg</file>
+    </qresource>
+    
+    <qresource prefix="/ui">
+        <!-- UI definition files -->
+        <file>ui/main_window.ui</file>
+        <file>ui/preferences.ui</file>
+    </qresource>
+    
+    <qresource prefix="/translations">
+        <!-- Translation files -->
+        <file>translations/feasibleassets_de.qm</file>
+        <file>translations/feasibleassets_fr.qm</file>
+        <file>translations/feasibleassets_es.qm</file>
+    </qresource>
+</RCC>

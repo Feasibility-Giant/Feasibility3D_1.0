@@ -63,7 +63,7 @@ except ImportError:
         return string
 
     def Version():
-        return 0, 22, 0, "dev"
+        return 0, 1, 0, " "
 
     class ConsoleReplacement:
         """If FreeCAD's Console is not available, create a replacement by redirecting FreeCAD

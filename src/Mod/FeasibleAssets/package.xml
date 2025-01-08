@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1">
+    <name>FeasibleAssets</name>
+    <description>Asset library manager for oil and gas industry components</description>
+    <version>1.0.0</version>
+    <maintainer email="your@email.com">Your Name</maintainer>
+    <license>LGPL-2.1</license>
+    <url type="repository">https://github.com/yourusername/FeasibleAssets</url>
+    
+    <content>
+        <workbench>
+            <classname>FeasibleAssetsWorkbench</classname>
+            <subdirectory>./</subdirectory>
+            <icon>Resources/icons/FeasibleAssets.svg</icon>
+            <tag>asset-management</tag>
+        </workbench>
+    </content>
+</package>

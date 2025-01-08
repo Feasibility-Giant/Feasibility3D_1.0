@@ -1,0 +1,59 @@
+Mod/
+└── FeasibleAssets/
+    ├── Init.py                    # Module initialization
+    ├── InitGui.py                 # GUI initialization
+    ├── FeasibleAssets.py         # Main module code
+    ├── feasibleassets_rc.py      # Generated resource file
+    ├── package.xml               # FreeCAD package metadata
+    ├── CMakeLists.txt            # CMake build configuration
+    ├── README.md                 # Module documentation
+    ├── LICENSE                   # License file
+    │
+    ├── feasibleassets/           # Main package directory
+    │   ├── __init__.py          # Package initialization
+    │   ├── core/                # Core functionality
+    │   │   ├── __init__.py
+    │   │   ├── asset_manager.py  # Asset management logic
+    │   │   ├── category_manager.py
+    │   │   └── metadata.py       # Metadata handling
+    │   │
+    │   ├── gui/                 # GUI components
+    │   │   ├── __init__.py
+    │   │   ├── views/
+    │   │   │   ├── __init__.py
+    │   │   │   ├── main_window.py
+    │   │   │   ├── category_tree.py
+    │   │   │   └── asset_view.py
+    │   │   │
+    │   │   └── widgets/
+    │   │       ├── __init__.py
+    │   │       ├── drag_drop.py
+    │   │       └── property_editor.py
+    │   │
+    │   └── utils/               # Utility functions
+    │       ├── __init__.py
+    │       ├── file_handlers.py
+    │       └── config.py
+    │
+    ├── Resources/              # Resource files
+    │   ├── icons/             # Icon files
+    │   │   ├── FeasibleAssets.svg
+    │   │   └── categories/
+    │   │       ├── piping.svg
+    │   │       ├── vessels.svg
+    │   │       └── ...
+    │   │
+    │   ├── ui/                # UI definition files
+    │   │   ├── main_window.ui
+    │   │   └── preferences.ui
+    │   │
+    │   └── translations/      # Translation files
+    │       ├── feasibleassets_de.ts
+    │       ├── feasibleassets_fr.ts
+    │       └── ...
+    │
+    └── tests/                # Test suite
+        ├── __init__.py
+        ├── test_asset_manager.py
+        ├── test_category_manager.py
+        └── test_gui.py
